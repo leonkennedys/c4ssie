@@ -1,1 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: #F0F0F0; /* Titatinium White */
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #002147; /* Oxford Blue */
+  padding: 8px 15px;
+  border: 2px solid #002147; /* Oxford Blue */
+  border-radius: 8px;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
