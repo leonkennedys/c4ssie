@@ -1,37 +1,212 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    background-image:url("https://i.pinimg.com/564x/cd/f9/9d/cdf99dffd7dfad30c3946640aee3f1fc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.navbar {
-  display: flex;
-  background-color: #F0F0F0; /* Titatinium White */
-  border-radius: 15px;
-  padding: 10px;
-}
-
-.nav-item {
-  text-decoration: none;
-  color: #002147; /* Oxford Blue */
-  padding: 8px 15px;
-  border: 2px solid #002147; /* Oxford Blue */
-  border-radius: 8px;
-  transition: transform 0.3s, font-size 0.3s;
-}
-
-.nav-item:hover {
-  transform: scale(1.1);
-}
-
-/* Animation for fade-in effect */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+.metallic{
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 4em;
+    font-weight:lighter;
+    color: #890620;
+    text-shadow: 3px 3px #000000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
   }
-  to {
-    opacity: 1;
+  
+  a:link{
+    color:#ffffff;
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+    transition: color, text-shadow 1s;
   }
+  a:visited{
+    color:#a19c9c;
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+  }
+  a:hover{
+    color:rgb(0, 0, 0);
+    font-size:2em;
+    text-shadow: 2px 2px #ffffff;
+  }
+  a:active{
+    color:#000000;
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .contentt{
+   color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align:center;
+   text-shadow: 2px 2px #000000;
+   font-size: 5em;
+  }
+ 
+  #aboutme, #skills {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+  a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-size: 5em;
+  }
 
+  .rectangle{
+    width:700px;
+    height:300px;
+    background-image: url("https://i.pinimg.com/564x/af/cb/57/afcb5722bc61f2b198d70af0ae43697c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid;
+    border-radius: 25px;
+    display:inline-block;
+  }
+
+  p, #work{
+    color:#890620 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+    transition: font-size 1s;
+  }
+
+  #work:hover{
+    font-size: 35px;
+  }
+  #profilepic{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    float: left;
+  }
+   
+  #name{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    color:#890620;
+    display:inline;
+    text-shadow: 2px 2px #000000;
+  }
+
+  progress[value] {
+    --color: #14213D; 
+    --background: rgb(133, 133, 133); 
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  
+  label {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #890620;
+    text-shadow: 2px 2px #14213D;
+    transition: font-size 0.5s;
+  }
+
+  label:hover{
+    font-size: 40px; 
+  }
+
+  #project1,
+  #project3,
+  #project4 {
+      display: inline-block;
+      height: 400px; 
+      width: 400px; 
+      filter: blur(1px);
+      transition: blur, width, height 1s;
+  }
+  
+  #project1:hover,
+  #project3:hover,
+  #project4:hover {
+      filter: blur(0px);
+      height: 410px; 
+      width: 410px; 
+  }
+  
+  
+   .hobbies{
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 25px;
+    colorr: #890620;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+   }
+
+   .contact{
+    background-color: #b4bac6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#instagram, #gmail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+h4{
+    color:#000000;
+    text-shadow: 2px 2px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: inline;
+    margin-right: 30px;
+}
+
+#email{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    transition: color, text-shadow 1s;
+}
+
+#email:hover{
+    color:#ffffff;
+    text-shadow: 2px 2px black;
+}
+
+@keyframes loading-in-animation {
+    from {filter:invert(100%); }
+    to {filter:invert(0%)}
+}
+
+body {
+    animation-name: loading-in-animation;
+    animation-duration: 5.5s;
+}
